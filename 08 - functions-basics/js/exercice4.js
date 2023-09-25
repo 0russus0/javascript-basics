@@ -12,7 +12,7 @@ function afficherDate(date) {
 	});
 	return dateLocale;
 }
-today = afficherDate();
+let today = afficherDate();
 console.log(today);
 
 function calculerAge(birthYear, date) {
@@ -23,5 +23,5 @@ function calculerAge(birthYear, date) {
 	return age;
 }
 
-old = calculerAge();
+let old = calculerAge();
 console.log(old);
